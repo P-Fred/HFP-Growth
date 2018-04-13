@@ -11,5 +11,4 @@ target_link_libraries(gimlet stdc++fs ${Boost_LIBRARIES})
 
 # Installation targets
 
-#install (TARGETS gimlet DESTINATION lib)
-#install (DIRECTORY gimlet DESTINATION include)	 
+install (TARGETS gimlet DESTINATION lib)
