@@ -1,11 +1,11 @@
 # Project description
 
-This project essentially provides two algorithms written in `C++17` and called `HFP-growth` and `IFP-growth`.
+This project essentially provides two algorithms written in `C++17` called `HFP-growth` and `IFP-growth`.
 Given some input dataset only described by categorical features, both algorithms aim at computing efficiently in time and space entropic measures of a large number feature subsets.
 Their names come from the fact they are related somehow to the well known frequent pattern mining algorithm called `FP-growth` [1].
 
 More precisely:
-- HFP-growth computes the entropy of all feature subsets whose relative entropy (between 0 and 1) of their joint empirical distribution is higher than a given threshold hmax.
+- HFP-growth computes the entropy of all feature subsets whose relative entropy (between 0 and 1) of their joint empirical distribution is not larger than a given threshold hmax.
 - IFP-growth mines the top-k reliable approximate functional dependencies (see reference [3] for more details) scored by the reliable fraction of information.
 
 A third algorithm called HAPriori is provided as a baseline algorithm in order to assess the speed and scalability of HFP-growth.
