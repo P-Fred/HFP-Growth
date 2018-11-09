@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <vector>
+#include <map>
 #include <memory>
 #include <utility>
 #include <type_traits>
