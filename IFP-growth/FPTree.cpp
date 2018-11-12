@@ -1,7 +1,7 @@
 #include <atomic>
 
 #include "FPTree.hpp"
-
+#include <map>
 #include <gimlet/json_parser.hpp>
 #include <gimlet/data_iterator.hpp>
 
